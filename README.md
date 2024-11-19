@@ -54,7 +54,7 @@ Download the source code of the application:
 
 - **Option 1: Clone the repository using Git**:
   ```bash
-  git clone https://github.com/yourusername/bitcoin-wallet-finder.git
+  git clone https://github.com/privjimmie/wscanner.git
   ```
 - **Option 2: Download the ZIP file from the repository and extract it to a folder**.
 
@@ -70,7 +70,7 @@ Download the source code of the application:
 2. **Navigate to the Source Code Directory**:
    - Use the `cd` command to navigate to the folder where you extracted the source code.
      ```bash
-     cd path	oitcoin-wallet-finder
+     cd path\to\Bitcoin-wallet-finder
      ```
 
 3. **Restore Dependencies**:
@@ -84,8 +84,7 @@ Download the source code of the application:
      ```bash
      dotnet build -c Release
      ```
-   - The executable will be located in the `bin\Release
-et6.0\` directory.
+   - The executable will be located in the `bin\Release\net8.0\` directory.
 
 #### Option 2: Using Visual Studio (For Users with Visual Studio Installed)
 
@@ -99,8 +98,7 @@ et6.0\` directory.
    - Click on **Build** > **Build Solution** or press `Ctrl+Shift+B`.
 
 4. **Locate the Executable**:
-   - After a successful build, the executable will be in the `bin\Release
-et6.0\` folder.
+   - After a successful build, the executable will be in the `bin\Release\Net8.0\` folder.
 
 ### 4. Run the Application
 
@@ -116,8 +114,7 @@ To ensure the application can access all files and folders, **you must run it as
 2. **Navigate to the Executable Directory**:
    - Use the `cd` command to navigate to the directory containing the built executable:
      ```bash
-     cd path	oitcoin-wallet-finderin\Release
-et6.0
+     cd path\to\Bitcoin-wallet-finder\Bin\Release\Net8.0
      ```
 
 3. **Run the Application**:
@@ -125,13 +122,10 @@ et6.0
      ```bash
      WalletScanner.exe
      ```
-     *(Replace `WalletScanner.exe` with the actual name of your executable if different.)*
 
 4. **Follow On-Screen Prompts**:
    - **Enter the drive letter to scan (e.g., C):**
      - Type the drive letter you wish to scan (e.g., `C`) and press **Enter**.
-   - **Enter the maximum file size to scan (in KB):**
-     - Press **Enter** to accept the default of `5120` KB (5 MB), or type a different value and press **Enter**.
 
 5. **Monitor Progress**:
    - The application will display progress updates every 100 files processed.
